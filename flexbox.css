@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: rgb(196, 196, 156);
+    color: black;
+    text-align: center;
+    padding: 1em;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    padding: 1em;
+}
+
+.main {
+    flex: 2;
+    padding: 1em;
+}
+
+.sidebar{
+    background-color: rgb(96, 136, 123);
+    color: white;
+    padding: 1em;
+}
