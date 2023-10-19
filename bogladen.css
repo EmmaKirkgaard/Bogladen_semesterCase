@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    color: whitesmoke;
+    margin: 0;
+}
+
+h1 {
+    background-color: rgb(146, 165, 146);
+    width: 100%;
+    text-align: center;
+}
+
+.sticky{
+    position: sticky;
+    background-color: rgb(212, 202, 190);
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: black;
+}
+
+.relative1 {
+    position: absolute;
+    height: 1000px;
+    width: 20%;
+    background-color: rgb(146, 165, 146);
+    left: 0;
+}
+
+.relative2 {
+    position: relative;
+    height: 1000px;
+    width: 80%;
+    background-color: rgb(130, 130, 86);
+    left: 20%;
+}
+
+.container{
+    position: relative;
+    background-color: darkgray;
+    width: 100%;
+    height: 1000px;
+    left: 0;
+}
+
+.fixed{
+    position: fixed;
+    background-color: rgb(212, 202, 190);
+    width: 100%;
+    height: 50px;
+    bottom: 10px;
+    color: white;
+}
